@@ -1,18 +1,33 @@
 # Replace the text below to customize your site
-site_name: Fabricademy Student Website
-site_description: My Fabricademy site
-site_url: http://fibasile.fabcloud.io/mkdocs
-repo_url: https://gitlab.fabcloud.org/fibasile/mkdocs
-site_author: Student's Name
-docs_dir: docs 
+site_name: Your name
+site_description: Your name Fabricademy site
+site_url: https://class.textile-academy.org/2020/student.example/
+repo_url: https://gitlab.fabcloud.org/academany/fabricademy/2020/students/student.example
+site_author: Your name
+docs_dir: docs
 site_dir: _site
-copyright: Preferably a copyleft ;-)
-theme: 
-    name: cosmo # try also cerulean, cosmo, cyborg, amelia, darkly, spacelab, united
-    extra:
-        include_sidebar: false
+copyright: Copyright 2019 Your name - Creactive Commons Attribution Non-commercial
+theme:
+  name: material
+  # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
+  palette:
+    primary: "deep-purple"
+    accent: "deep-purple"
+  feature:
+    tabs: true
+extra:
+  social:
+    # also facebook, pinterest, github are supported
+    - type: "instagram"
+      link: "https://instagram.com/squidfunk"
+    - type: "twitter"
+      link: "https://twitter.com/squidfunk"
+    - type: "linkedin"
+      link: "https://linkedin.com/in/squidfunk"
+
 markdown_extensions:
-    - toc:
-        permalink: '#'
-    - extra
-    - smarty
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true

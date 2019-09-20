@@ -1,5 +1,5 @@
 
-Hello!
+# Home
 
 This is an example blog for the Fabricademy Course.
 

@@ -1,4 +1,4 @@
-# 4. Biofabricating Dyes and Materials
+# 4. Biochromes
 
 
 This week I worked on defining my final project idea and started to getting used to the documentation process.

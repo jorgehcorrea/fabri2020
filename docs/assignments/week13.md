@@ -1,4 +1,4 @@
-# 8. Computational couture
+# 13. Skin Electronics
 
 This week I worked on defining my final project idea and started to getting used to the documentation process.
 

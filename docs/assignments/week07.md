@@ -1,4 +1,4 @@
-# 7. Textile as Scaffold
+# 7. Open Source hardware: from fibers to fabric
 
 This week I worked on defining my final project idea and started to getting used to the documentation process.
 

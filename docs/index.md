@@ -6,7 +6,7 @@ This is an example blog for the Fabricademy Course.
 You can edit it on [Gitlab](http://gitlab.fabcloud.org). The software used turns simple text files
 written in [Markdown](https://en.wikipedia.org/wiki/Markdown) format, into the site you are navigating.
 
-Each time you change a page using the Gitlab interface the site is rebuilt and all the changes published 
+Each time you change a page using the Gitlab interface the site is rebuilt and all the changes published
 in few minutes.
 
 If this is your site, go on and edit this page clicking the Gitlab link on the upper right, changing the text below and deleting this.

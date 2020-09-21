@@ -1,6 +1,8 @@
 image: python:3.8-slim
 
 before_script:
+  # install Git for the mkdocs revision plugin
+  - time apt update && apt-get install -y git
   # Install mkdocs and theme
   - time pip install -r requirements.txt
 
@@ -16,6 +18,8 @@ test:
 
 pages:
   stage: deploy
+  variables:
+    GIT_DEPTH: 1000
   script:
   - time mkdocs build --site-dir public
   artifacts:

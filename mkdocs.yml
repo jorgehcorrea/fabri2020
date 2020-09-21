@@ -34,6 +34,10 @@ theme:
   features:
     - tabs
 
+plugins:
+  - search
+  - git-revision-date-localized
+
 markdown_extensions:
   - admonition
   - codehilite:

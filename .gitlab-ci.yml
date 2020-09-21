@@ -1,15 +1,25 @@
 image: python:3.8-slim
 
 before_script:
-  - pip install -r requirements.txt
+  # Install mkdocs and theme
+  - time pip install -r requirements.txt
+
+test:
+  stage: test
+  script:
+  - time mkdocs build --strict --verbose --site-dir test
+  artifacts:
+    paths:
+    - test
+  except:
+  - master
 
 pages:
+  stage: deploy
   script:
-  - mkdocs build
-  - mv _site public
+  - time mkdocs build --site-dir public
   artifacts:
     paths:
     - public
   only:
   - master
-

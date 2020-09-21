@@ -1,29 +1,38 @@
 # Replace the text below to customize your site
 site_name: Your name
 site_description: Your name Fabricademy site
-site_url: https://class.textile-academy.org/2020/student.example/
-repo_url: https://gitlab.fabcloud.org/academany/fabricademy/2020/students/student.example
 site_author: Your name
-docs_dir: docs
-site_dir: _site
-copyright: Copyright 2019 Your name - Creactive Commons Attribution Non-commercial
-theme:
-  name: material
-  # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
-  palette:
-    primary: "deep-purple"
-    accent: "deep-purple"
-  feature:
-    tabs: true
+copyright: Copyright 2021 Your name - Creactive Commons Attribution Non-commercial
+
+site_url: http://academany.fabcloud.io/fabricademy/2021/student-template/
+repo_url: https://gitlab.fabcloud.org/academany/fabricademy/2021/student-template
+repo_name: Edit on Fabcloud
+
 extra:
   social:
-    # also facebook, pinterest, github are supported
-    - type: "instagram"
-      link: "https://instagram.com/squidfunk"
-    - type: "twitter"
-      link: "https://twitter.com/squidfunk"
-    - type: "linkedin"
-      link: "https://linkedin.com/in/squidfunk"
+    # For other social icons at https://squidfunk.github.io/mkdocs-material/setup/adding-social-links/
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/fabricademy
+    - icon: fontawesome/brands/facebook
+      link: https://facebook.com/fabricademy
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/fabricademy
+
+theme:
+  name: material
+  palette:
+    # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
+    primary: deep purple
+    accent: deep purple
+  font:
+    # See available fonts at https://fonts.google.com/
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: material/library
+    repo: material/gitlab
+  features:
+    - tabs
 
 markdown_extensions:
   - admonition

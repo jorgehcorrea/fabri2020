@@ -22,14 +22,14 @@ theme:
   name: material
   palette:
     # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
-    primary: deep purple
+    primary: yellow
     accent: deep purple
   font:
     # See available fonts at https://fonts.google.com/
-    text: Roboto
+    text: Montserrat
     code: Roboto Mono
   icon:
-    logo: material/library
+    logo: material/car
     repo: material/gitlab
   features:
     - tabs

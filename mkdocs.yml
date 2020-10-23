@@ -1,8 +1,7 @@
-# Replace the text below to customize your site
-site_name: Your name
-site_description: Your name Fabricademy site
-site_author: Your name
-copyright: Copyright 2021 Your name - Creactive Commons Attribution Non-commercial
+site_name: Jorge correa
+site_description: Fabricademy 2020
+site_author: Jorge correa
+copyright: Copyright 2021 Jorge Correa - Creactive Commons Attribution Non-commercial
 
 site_url: https://class.textile-academy.org/2021/jorge-correa/
 repo_url: https://gitlab.fabcloud.org/academany/fabricademy/2021/students/jorge.correa
@@ -12,21 +11,17 @@ extra:
   social:
     # For other social icons at https://squidfunk.github.io/mkdocs-material/setup/adding-social-links/
     - icon: fontawesome/brands/instagram
-      link: https://instagram.com/fabricademy
-    - icon: fontawesome/brands/facebook
-      link: https://facebook.com/fabricademy
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/fabricademy
+      link: https://www.instagram.com/mr.j_snap/
 
 theme:
   name: material
   palette:
     # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
-    primary: deep purple
-    accent: deep purple
+    primary: green
+    accent: green
   font:
     # See available fonts at https://fonts.google.com/
-    text: Roboto
+    text: Ubuntu
     code: Roboto Mono
   icon:
     logo: material/library

@@ -127,7 +127,8 @@ Bill of materials
 ![](../images/as4.jpg)
 ![](../images/as5.jpg)//change when final is up
   AnalogRead
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lbIORI1Yeiw" frameborder="0"; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>  
-  Schematic
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lbIORI1Yeiw" frameborder="0"; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>   
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pXvOCAwPYNA" frameborder="0"; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>  
+	Schematic
 ##Integrate two soft sensors into one or two swatches with hard or soft connections
 ##Swatch Documentation

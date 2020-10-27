@@ -12,7 +12,7 @@ I'm curious laid back designer, and life long student. Graduated from Carleton U
 
 Developed in Quito's manufacturing industry regarding Construction Furniture and Footwear design, always in-house, always next to the factory so I understand what and how things get done.
 
-![](images/kid-shoe.jpg)
+![](images/kid-shoe.JPG)
 
 ## Previous work
 
@@ -20,10 +20,12 @@ I created a [chair that makes you coffee](https://fabacademy.org/2019/labs/zoi/s
 
 ### This is me
 
-![](images/jorge-correa.jpg)
+![](images/jorge-correa.JPG)
 
 I am located in the Andes, beautiful mountains surround me and I´m fond of getting out of the city on the spare time.
 
 This surrounds my city:
 
-![My Favorite mountain](images/cotopaxi.jpg)
+![My Favorite mountain](images/cotopaxi.JPG)
+
+You should come visit! 

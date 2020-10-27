@@ -111,7 +111,7 @@ From <https://www.kobakant.at/DIY/?p=232>
 ![](../images/db2.jpg)
 ![](../images/db4.jpg)//change when final is up
   DigitalRead
-<iframe width="560" height="315" src="https://youtu.be/6gbswSNNxvQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6gbswSNNxvQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   Schematic
 ![](../images/sh.jpg)//schematic
 ##Analog Soft Sensor
@@ -127,7 +127,7 @@ Bill of materials
 ![](../images/as4.jpg)
 ![](../images/as5.jpg)//change when final is up
   AnalogRead
-<iframe width="560" height="315" src="https://youtu.be/lbIORI1Yeiw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lbIORI1Yeiw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   Schematic
 ![](../images/asV.3gp)
 ##Integrate two soft sensors into one or two swatches with hard or soft connections

@@ -39,3 +39,5 @@ markdown_extensions:
       guess_lang: false
   - toc:
       permalink: true
+  - pymdownx.tasklist:
+      custom_checkbox: true

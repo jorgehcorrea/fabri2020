@@ -62,7 +62,7 @@ Some good examples I contemplate on using as guides are the following
 [Zebra Fabric Stroke Sensors](https://www.kobakant.at/DIY/?p=6163)
 [Simple Fabric Pressure Sensors](https://www.kobakant.at/DIY/?p=232)
 
-##Learning outcomes
+Learning outcomes
   * Understand how we can produce soft circuits, sensors and actuators
   * Learn how to embed them in garments, soft objects or wearables
   * Study and learn soft-hard connections
@@ -88,12 +88,15 @@ Some good examples I contemplate on using as guides are the following
 ![](../images/db1.jpg)
 ![](../images/db2.jpg)
 ![](../images/db4.jpg)
-###Testing Switch
+
+###Testing Switch  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6gbswSNNxvQ" frameborder="0"; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>  
 ![](../images/sch1.png)
 L1 = led, P1 = Velostat Switch  
-In this case I ended using the pin 13 instead of Vcc, when pushed the velostat reduces its resistance and turn on the light.
-###Analog Read
+In this case I ended using the pin 13 instead of Vcc, when pushed the velostat reduces its resistance and turn on the light.  
+
+###Analog Read  
+
 The following is a reading of the sensor with the arduino.
 The velostat was used in the same format.  
 
@@ -141,6 +144,53 @@ Bill of materials
   AnalogRead
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lbIORI1Yeiw" frameborder="0"; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>   
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pXvOCAwPYNA" frameborder="0"; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>  
-![](../images/.jpg)
+
+##Application  
+###Concept  
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=fu99w07CivA&feature=youtu.be#t=0m08s" frameborder="0"; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>  
+
+This assignment I have decided to apply e-textiles into my buff garment. I like to run, and when I run at night I use a Buff and a headlamp. The lamp comes handy when running at night, as signaling device for cars in the road and when I go into a trail.    
+
+![The headlamp](../images/headlamp.jpg)    
+The head lamp is an injection plastic hard shell, It also tends to slip. A soft headlamp can be lighter, comfortable and  inconspicuous. There might be drawbacks when it requires washing in the future but for exploration purposes I find it to be a good idea.    
+![The buff](../images/buff.jpg)  
+The buff is some sort of Lycra fabric, very stretchy, is used in the head or neck in various configurations. It protects the cold among other things.     
+
+###Construction    
+
+![Materials_buff](../images/construction_buff 1.jpg)    
+
+Bill of Materials    
+	* x1 Buff  
+	* x2 copper sheet (1.5 x 3 cm)  
+	* x1 Velostat sheet (1 x 2 cm)  
+	* x1 Double sided Tape (hold it all until the sawing)  
+	* x6 wires (Solder to the copper sheets & other components)  
+	*	x1 Arduino Micro produce  
+	*	x1 battery  
+	* x1 LED  
+
+The sensor was a digital pressure sensor, it has the flexibility that its not noticeable when attached to the buff.    
+The casing of the sensor was attached in the ends of the sensor vertical to how the person would wear the buff as to not be unstitched.     
+
+![Sensor Construction](../images/construction_buff 2.jpg)    
+A closer look into the construction of the digital pressure sensor  
+
+![Using the Sensor](../images/construction_buff 3.jpg)
+Testing the sensor how I imagine it be used.  
+
+![The led](../images/construction_buff 4.jpg)  
+I took the precaution to use leather around the LED as I imagine it could heat up.  
+
+![All together](../images/construction_buff 5.jpg)  
+
+<iframe width="560" height="315" src="https://youtu.be/_Zw_BUBfYTE" frameborder="0"; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>  
+
+The schematic:  
+![test buff schematic](../images/test_buff_schematic.jpg)  
 ##Integrate two soft sensors into one or two swatches with hard or soft connections
+After properly reading the assignment I realized I require a second sensor. I´m considering either:
+ 	1. Adding an LED for light sensing, and adjusting the light to the environment
+	2. Using a conductive thread as a capacitive sensor to look for the human wearing it before the light is on.
 ##Swatch Documentation

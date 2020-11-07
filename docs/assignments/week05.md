@@ -60,7 +60,11 @@ Some good examples I contemplate on using as guides are the following
 [Conductive Thread Pressure Sensor](https://www.instructables.com/Conductive-Thread-Pressure-Sensor/)  
 [Stroke Sensor](https://www.kobakant.at/DIY/?p=792)  
 [Zebra Fabric Stroke Sensors](https://www.kobakant.at/DIY/?p=6163)
-[Simple Fabric Pressure Sensors](https://www.kobakant.at/DIY/?p=232)
+[Simple Fabric Pressure Sensors](https://www.kobakant.at/DIY/?p=232)  
+Inspiration:   
+[Touch and electronic textile](https://medium.com/@ricardoonascimento/touch-and-electronic-textiles-371d30fcc239)
+[Kristi Kuust](http://www.kristikuusk.com/)
+[JACQUARD](https://atap.google.com/jacquard/technology/)
 
 Learning outcomes
   * Understand how we can produce soft circuits, sensors and actuators
@@ -70,8 +74,8 @@ Learning outcomes
   * Explore and replicate existing projects
 
 ##Assignment
-* [ ] Build at least one digital and one analogue soft sensors, using different materials and techniques.
-* [ ] Document the sensor project as well as the readings got using the AnalogRead of Arduino
+* [x] Build at least one digital and one analogue soft sensors, using different materials and techniques.
+* [x] Document the sensor project as well as the readings got using the AnalogRead of Arduino
 * [ ] Integrate the two soft sensors into one or two textile swatches using hard soft connections
 * [ ] Document the circuit and it’s schematic
 * [ ] Document your swatches
@@ -148,7 +152,7 @@ Bill of materials
 ##Application  
 ###Concept  
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=fu99w07CivA&feature=youtu.be#t=0m08s" frameborder="0"; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>  
+<iframe width="100%" height="100%" src="https://youtu.be/fu99w07CivA" frameborder="0"; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>  
 
 This assignment I have decided to apply e-textiles into my buff garment. I like to run, and when I run at night I use a Buff and a headlamp. The lamp comes handy when running at night, as signaling device for cars in the road and when I go into a trail.    
 
@@ -159,38 +163,80 @@ The buff is some sort of Lycra fabric, very stretchy, is used in the head or nec
 
 ###Construction    
 
-![Materials_buff](../images/construction_buff 1.jpg)    
+![](../images/c1.jpg)  
 
 Bill of Materials    
-	* x1 Buff  
-	* x2 copper sheet (1.5 x 3 cm)  
-	* x1 Velostat sheet (1 x 2 cm)  
-	* x1 Double sided Tape (hold it all until the sawing)  
-	* x6 wires (Solder to the copper sheets & other components)  
-	*	x1 Arduino Micro produce  
-	*	x1 battery  
-	* x1 LED  
+	 x1 Buff  
+	 x2 copper sheet (1.5 x 3 cm)  
+	 x1 Velostat sheet (1 x 2 cm)  
+	 x1 Double sided Tape (hold it all until the sawing)  
+	 x6 wires (Solder to the copper sheets & other components)  
+		x1 Arduino Micro produce  
+		x1 battery  
+	 x1 LED  
 
 The sensor was a digital pressure sensor, it has the flexibility that its not noticeable when attached to the buff.    
 The casing of the sensor was attached in the ends of the sensor vertical to how the person would wear the buff as to not be unstitched.     
 
-![Sensor Construction](../images/construction_buff 2.jpg)    
+![Sensor Construction](../images/c2.jpg)    
 A closer look into the construction of the digital pressure sensor  
 
-![Using the Sensor](../images/construction_buff 3.jpg)
+![Using the Sensor](../images/c3.jpg)
 Testing the sensor how I imagine it be used.  
 
-![The led](../images/construction_buff 4.jpg)  
+![The led](../images/c4.jpg)  
 I took the precaution to use leather around the LED as I imagine it could heat up.  
 
-![All together](../images/construction_buff 5.jpg)  
+![All together](../images/c5.jpg)  
 
 <iframe width="560" height="315" src="https://youtu.be/_Zw_BUBfYTE" frameborder="0"; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>  
 
-The schematic:  
-![test buff schematic](../images/test_buff_schematic.jpg)  
-##Integrate two soft sensors into one or two swatches with hard or soft connections
-After properly reading the assignment I realized I require a second sensor. I´m considering either:
- 	1. Adding an LED for light sensing, and adjusting the light to the environment
-	2. Using a conductive thread as a capacitive sensor to look for the human wearing it before the light is on.
+The following is the components I decided to saw against the buff in order to make it work.
+
+![buff_LED_Schematics](../images/buff_LED1.jpg)  
+
+The code I used is below. A special thanks to [donwinchell](https://forum.arduino.cc/index.php?topic=200933.msg2086921#msg2086921) as I ended using a code he posted from a message board in arduino help section. Later modifying it to my needs, and building on the electronic tutorials we did with Liza Stark.
+
+		int switch1 = A0; // connect a push button switch between this pin and ground
+		int ledpin = 9; // internal led, external LED, relay, trigger for other function, some other device, whatever.
+		boolean flag = true;
+
+		void setup()
+		{
+		pinMode(ledpin,OUTPUT); // this pin controlled by flipflop() function
+		pinMode (switch1,INPUT_PULLUP); // keeps pin HIGH via internal pullup resistor unless brought LOW with switch
+		Serial.begin(9600); // just for debugging, not needed.
+		}
+
+		void loop()
+		{
+		if (digitalRead(switch1)==LOW){ // check the state of switch1 every time we run through the main loop
+		delay(5); // I don't REALLY know why this delay helps, but it does.
+			flipflop(); // hops out of main loop and runs the flipflop function
+		}// end of check for button press.
+
+		// other sketch code here
+
+		} // end of main loop.
+
+		void flipflop(){  //funtion flipflop
+		flag = !flag;  // since we are here, the switch was pressed So FLIP the boolian "flag" state (we don't even care if switch was released yet)
+		Serial.print("flag =   " );   Serial.println(flag);   // not needed, but may help to see what's happening.
+
+		if (flag == LOW){  // Use the value of the flag var to change the state of the pin
+		digitalWrite(ledpin,HIGH ); // if the flag var is HIGH turn the pin on
+		}
+		if (flag == HIGH) {
+		digitalWrite(ledpin,LOW); // if the flag var is LOW turn the pin off
+		}
+		while(digitalRead(switch1)==HIGH); // for "slow" button release, keeps us in the function until button is UN-pressed
+		// If you take out this "while" the function becomes a flipflop oscillator if the button is held down.
+		delay(50); // OPTIONAL - play with this value.  It is probably short enough to not cause problems. deals with very quick switch press.
+		}
+<a href="../files/week5/CodeLightBuff-donwinchell/CodeLightBuff-donwinchell.ino" download>Click to Download Code</a>    
+
+##Integrate two soft sensors into one or two swatches with hard or soft connections  
+After properly reading the assignment I realized I require a second sensor. I´m considering either:  
+ 	1. Adding an LED for light sensing, and adjusting the light to the environment  
+	2. Using a conductive thread as a capacitive sensor to look for the human wearing it before the light is on.  
 ##Swatch Documentation

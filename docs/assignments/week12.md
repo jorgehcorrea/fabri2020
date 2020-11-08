@@ -1,7 +1,10 @@
 # 12. Soft robotics
 
+December 8th, 2020
 
-This week I worked on defining my final project idea and started to getting used to the documentation process.
+Lily Chambers & Adriana Cabrera
+
+This class will focus in the study of a specific field in robotics, the soft robotics. Unlike rigid robots we are mostly used to, soft bodied robots have similarities and performance characteristics similar to living organisms or the human body.
 
 ## Research
 

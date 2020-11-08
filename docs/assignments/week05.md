@@ -151,8 +151,8 @@ Bill of materials
 
 ##Application  
 ###Concept  
-
-<iframe width="100%" height="100%" src="https://youtu.be/fu99w07CivA" frameborder="0"; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>  
+![the ligth headgear concept](../images/2020-11-08-LightHeadgear-03.jpg)
+<iframe src="https://player.vimeo.com/video/476701688" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 This assignment I have decided to apply e-textiles into my buff garment. I like to run, and when I run at night I use a Buff and a headlamp. The lamp comes handy when running at night, as signaling device for cars in the road and when I go into a trail.    
 
@@ -162,6 +162,7 @@ The head lamp is an injection plastic hard shell, It also tends to slip. A soft 
 The buff is some sort of Lycra fabric, very stretchy, is used in the head or neck in various configurations. It protects the cold among other things.     
 
 ###Construction    
+
 
 ![](../images/c1.jpg)  
 

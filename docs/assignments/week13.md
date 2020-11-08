@@ -1,6 +1,10 @@
 # 13. Skin Electronics
 
-This week I worked on defining my final project idea and started to getting used to the documentation process.
+December 15th, 2020
+
+Katia Vega
+
+In the same way that the wearables industry is integrating fashion practices in their development, we envision new partnerships between the biotech/tech companies and skin professionals such as makeup artists…
 
 ## Research
 

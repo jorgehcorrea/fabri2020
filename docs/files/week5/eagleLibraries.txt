@@ -1,7 +1,0 @@
-The following libraries where used in order to draw the schematics:
-* Fablibrary
-* Arduino library
-* Sparkfun library
-
-A friendly reminder in order to draw the schematics properly.
-I still have to find the "big electronic components" libraries. 

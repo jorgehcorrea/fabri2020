@@ -1,0 +1,23 @@
+The following libraries where used in order to draw the schematics:
+* Fablibrary
+* Arduino library
+* Sparkfun library
+
+A friendly reminder in order to draw the schematics properly.
+I still have to find the "big electronic components" libraries.
+
+The standard / references for the Vimeo Videos:
+-Light Headgear: Connection Test
+
+-Light Headgear: Callibration Test
+
+-Light Headgear: Concept Process
+  * The Following, a process step for the Light headgear development.
+  * A module in the Fabriacacdemy 20-21 class. Look at the full development at https://class.textile-academy.org/2021/jorge.correa/assignments/week05/#construction.
+  * <iframe width="560" height="315" src="https://vimeo.com/477300731" frameborder="0"; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+
+-Light Headgear: Concept Proof
+  * The Following, a concept Proof for the Light headgear development.
+  * A module in the Fabriacacdemy 20-21 class. Look at the full development at https://class.textile-academy.org/2021/jorge.correa/assignments/week05/#construction.
+  * <iframe src="https://player.vimeo.com/video/476701688" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+

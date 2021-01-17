@@ -62,6 +62,46 @@ I also found the following article usefull as a general purpose article to bette
 
   <iframe src="https://vimeo.com/501037891" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
+2. Undestanding Mosfets
+  * We saw this part in the tutorial of the week, so I wont go into too much detail. In this case I used the irf520 Mosfet. It is an N-channel Mosfet. Further information is found the [IRF520 Datasheet](http://www.irf.com/product-info/datasheets/data/irf520.pdf)
+  ![](https://components101.com/sites/default/files/component_pin/IRF520-Pinout.png)
+  * In this case I decided to use:  
+    * High Intensity LED
+    * 9 v battery for The high intensity LED
+    * 4 AAA Batteries to Power the Attiny, Connected in parallel to create a total volt of 6v, Attiny works up to 5.5v
+    * 10k ohm resistor
+    * Diode for High Intensity LED
+    * Attiny 85, with basic "blink code"
+  * The connection was follows:
+![](../images/ta-w10-2.2.PNG)
+The code used is:
+
+``` python
+
+// the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(2, OUTPUT);
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  analogWrite(2, 255);   // turn the LED on (255 is the voltage level)
+  delay(1000);                       // wait for a second
+  analogWrite(2, 0);    // turn the LED off by making the voltage 0
+  delay(1000);                       // wait for a second
+}
+
+```
+The final result is as follows:
+  <iframe src="https://vimeo.com/501037891" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+The final goal was to make the entire circuit independent so it works on portable power alone. With this we can test it with the swatches.
+
+
+3.
+
+
 ###Counter Tutorial  
 
 The Follwing is a modification on the Code from the Tutorial. In this case I also attached a speaker, just for kicks.

@@ -94,19 +94,20 @@ void loop() {
 
 ```
 The final result is as follows:
-  <iframe src="https://vimeo.com/501037891" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  <iframe src="https://vimeo.com/501335415" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 The final goal was to make the entire circuit independent so it works on portable power alone. With this we can test it with the swatches.
 
 
-3.
+3. Swatch: One input and one Output.
+The following is a setup, using a similar setup as before.
+The great difference is I am using the previously done soft sensor and a pull up input.
+* the led will change from off to midway on, to full On.
+* The input pullup pin is pin 1 
 
 
-###Counter Tutorial  
-
-The Follwing is a modification on the Code from the Tutorial. In this case I also attached a speaker, just for kicks.
-
-int sw_pin = 2;
+``` python
+int sw_pin = 1;
 int conutner_reset = 3; //how many times we press before we reset
 
 int led_pin = 0; // pin of the led
@@ -121,8 +122,7 @@ void setup() {
   // initialize input and output pin:
   pinMode(sw_pin, INPUT_PULLUP);
   pinMode(led_pin, OUTPUT);
-  //initialise serial communication:
-  Serial.begin(9600);
+
 }
 
 void loop() {
@@ -135,10 +135,9 @@ void loop() {
     if(sw_status == HIGH){
       coutner = coutner + 1 ;
     }
-      delay(500);
+      delay(10);
   }
- Serial.print("Counter: ");
- Serial.println(coutner);
+
 
   last_sw_status = sw_status;
 
@@ -147,20 +146,14 @@ void loop() {
   }
 
   if(coutner == 0){
-    digitalWrite(led_pin, LOW); //led is off
+    analogWrite(led_pin, 0); //led is off
   } else if(coutner == 1){
-    digitalWrite(led_pin, HIGH);//led is on
-    delay(100);
-    digitalWrite(led_pin, LOW); //
+    analogWrite(led_pin, 50);//led is on half way
     delay(100);
   } else if(coutner == 2){
-    digitalWrite(led_pin, HIGH);
+    analogWrite(led_pin, 255); //led is full on
     }
 
   }
-
-###
-
-## Actuator #1
-
-## Actuator #2
+  ```
+<iframe src="https://vimeo.com/501938018" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>

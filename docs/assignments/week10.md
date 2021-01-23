@@ -103,7 +103,7 @@ The final goal was to make the entire circuit independent so it works on portabl
 The following is a setup, using a similar setup as before.
 The great difference is I am using the previously done soft sensor and a pull up input.
 * the led will change from off to midway on, to full On.
-* The input pullup pin is pin 1 
+* The input pullup pin is pin 1
 
 
 ``` python
@@ -150,7 +150,7 @@ void loop() {
   } else if(coutner == 1){
     analogWrite(led_pin, 50);//led is on half way
     delay(100);
-  } else if(coutner == 2){
+  } else if(coutner == 2){.
     analogWrite(led_pin, 255); //led is full on
     }
 

@@ -157,3 +157,52 @@ void loop() {
   }
   ```
 <iframe src="https://vimeo.com/501938018" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+ 4. Generate Sound
+  - Generate Sound with Arduino
+In this case, we used:
+  IRF520 Mosfet
+  9v battery
+  3w Speaker
+  Arduino
+  Along with the sound 07 conde given by
+  ```
+  /*ema pareschi 2020
+ * I generate a sound on a speaker, frequency of 100hx
+ * */
+
+const int speaker = 3; //buzzer to arduino pin 8
+
+
+void setup() {
+
+  pinMode(speaker, OUTPUT); // Set buzzer - pin 8 as an Output
+
+}
+
+void loop() {
+
+  tone(speaker, 1000); //send 1khx dounf signal
+  delay(1000);
+  noTone(speaker);
+  delay(1000);
+
+}
+  ```
+  The final Result was as follows:
+      <iframe src="https://player.vimeo.com/video/515395149" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+  - Play Music of Device on Speaker
+The same excersice was done as with the arduino, with the modification of using a 1.8mm White Swade leather. The conductive thread was sawn with machine on top, and the speaker used 3 20mm round Rare earth magnets, two under the speaker and one to hold the other two in place. as follows:
+![](../images/ta-w10-4.2.jpg)
+<iframe src="https://player.vimeo.com/video/515423075" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+What became interesting is by folding the swade on itself it actually becomes the tension in order to create sound.
+
+  - Play Audio from SD card
+Other usefull links:
+* [Datasheet on DFPlayer Mini](https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299)
+
+* [DFPlayer and Attiny 85](https://www.circuito.io/app?components=9442,336411,8300591)
+
+
+![Attiny and DFSPlayer](https://raw.githubusercontent.com/DFRobot/DFRobotMediaWikiImage/master/Image/miniplayer_pin_map.png)

@@ -25,7 +25,7 @@ In order to prorgam the Attiny 85, I first required a couple of things:
   * led
   * 220 ohm Resistance
 
-![](../images/ta-w10-1.0.jpg)
+![](../images/ta-w10-1.0.JPG)
 
 1.1 Setup
   In this case I followed the [Tutorial on programming attiny](https://www.instructables.com/Program-an-ATtiny-with-Arduino/) Recomended, as well as look over the tutorial on the fabclass.
@@ -35,9 +35,9 @@ I also found the following article usefull as a general purpose article to bette
 1.2 Upload the code
   In this instance I uploaded the blink code to test out.
   * The library of the attiny85 was installed
-![](../images/ta-w10-1.3.JPG)
+![](../images/ta-w10-1.3.jpg)
   * The parameters to fit the specifically attiny 85 as follows:
-![](../images/ta-w10-1.4.JPG)
+![](../images/ta-w10-1.4.jpg)
 
   * The programming itself is as follows. The standard Blink example with the led pin changed to '0'.
    ``` python
@@ -194,7 +194,7 @@ void loop() {
 
   - Play Music of Device on Speaker
 The same excersice was done as with the arduino, with the modification of using a 1.8mm White Swade leather. The conductive thread was sawn with machine on top, and the speaker used 3 20mm round Rare earth magnets, two under the speaker and one to hold the other two in place. as follows:
-![](../images/ta-w10-4.2.jpg)
+![](../images/\ta-w10-4.2.jpg)
 <iframe src="https://player.vimeo.com/video/515423075" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 What became interesting is by folding the swade on itself it actually becomes the tension in order to create sound.
 

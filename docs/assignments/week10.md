@@ -60,7 +60,8 @@ I also found the following article usefull as a general purpose article to bette
 
   The end result, for simplicity I decided to use a cr2032 in the breadboard.
 
-  <iframe src="https://vimeo.com/501037891" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/video/501037891" width="640" height="1138" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+  <p><a href="https://vimeo.com/501037891">TA-w10-1</a> from <a href="https://vimeo.com/mrjsnap">mr.jsnap</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 2. Undestanding Mosfets
   * We saw this part in the tutorial of the week, so I wont go into too much detail. In this case I used the irf520 Mosfet. It is an N-channel Mosfet. Further information is found the [IRF520 Datasheet](http://www.irf.com/product-info/datasheets/data/irf520.pdf)
@@ -93,8 +94,10 @@ void loop() {
 }
 
 ```
-The final result is as follows:
-  <iframe src="https://vimeo.com/501335415" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+The final result is as follows:  
+
+<iframe src="https://player.vimeo.com/video/501335415" width="640" height="1138" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/501335415">ta-w10-21</a> from <a href="https://vimeo.com/mrjsnap">mr.jsnap</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 The final goal was to make the entire circuit independent so it works on portable power alone. With this we can test it with the swatches.
 
@@ -106,7 +109,7 @@ The great difference is I am using the previously done soft sensor and a pull up
 * The input pullup pin is pin 1
 
 
-``` python
+```
 int sw_pin = 1;
 int conutner_reset = 3; //how many times we press before we reset
 
@@ -156,7 +159,8 @@ void loop() {
 
   }
   ```
-<iframe src="https://vimeo.com/501938018" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/video/501938018" width="640" height="1138" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+  <p><a href="https://vimeo.com/501938018">ta-w10-3</a> from <a href="https://vimeo.com/mrjsnap">mr.jsnap</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
  4. Generate Sound
   - Generate Sound with Arduino
@@ -165,7 +169,8 @@ In this case, we used:
   9v battery
   3w Speaker
   Arduino
-  Along with the sound 07 conde given by
+  Along with the tutorial reviewed in class.
+
   ```
   /*ema pareschi 2020
  * I generate a sound on a speaker, frequency of 100hx
@@ -194,15 +199,6 @@ void loop() {
 
   - Play Music of Device on Speaker
 The same excersice was done as with the arduino, with the modification of using a 1.8mm White Swade leather. The conductive thread was sawn with machine on top, and the speaker used 3 20mm round Rare earth magnets, two under the speaker and one to hold the other two in place. as follows:
-![](../images/\ta-w10-4.2.jpg)
+![](../images/ta-w10-4.2.jpg)
 <iframe src="https://player.vimeo.com/video/515423075" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 What became interesting is by folding the swade on itself it actually becomes the tension in order to create sound.
-
-  - Play Audio from SD card
-Other usefull links:
-* [Datasheet on DFPlayer Mini](https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299)
-
-* [DFPlayer and Attiny 85](https://www.circuito.io/app?components=9442,336411,8300591)
-
-
-![Attiny and DFSPlayer](https://raw.githubusercontent.com/DFRobot/DFRobotMediaWikiImage/master/Image/miniplayer_pin_map.png)

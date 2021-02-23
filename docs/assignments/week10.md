@@ -17,7 +17,8 @@ This second class on the topic of wearables and e-textiles will provide a more a
 
 (Capítulo 45 - MOSFET IRF520N módulo transistor de potencia (y PWM)) [https://www.youtube.com/watch?v=SliUieh2eVc]
 ## Tutorial Activities
-1. Program Attiny 85
+
+### Program Attiny 85
 In order to prorgam the Attiny 85, I first required a couple of things:
   *  [Attiny85](https://www.microchip.com/wwwproducts/en/ATtiny85)
   * Arduino Uno
@@ -54,6 +55,7 @@ I also found the following article usefull as a general purpose article to bette
      digitalWrite(0, LOW);    // turn the LED off by making the voltage LOW
      delay(1000);                       // wait for a second
    }
+
    ```
    * Referencial Diagram of Pinout of the Attiny 85:
   ![](https://pinouts.net/wp-content/uploads/2020/11/1_otEn80kC9pWxOvNjfJ8F9A.jpeg)
@@ -63,10 +65,12 @@ I also found the following article usefull as a general purpose article to bette
   <iframe src="https://player.vimeo.com/video/501037891" width="640" height="1138" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
   <p><a href="https://vimeo.com/501037891">TA-w10-1</a> from <a href="https://vimeo.com/mrjsnap">mr.jsnap</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-2. Undestanding Mosfets
+## Undestanding Mosfets
   * We saw this part in the tutorial of the week, so I wont go into too much detail. In this case I used the irf520 Mosfet. It is an N-channel Mosfet. Further information is found the [IRF520 Datasheet](http://www.irf.com/product-info/datasheets/data/irf520.pdf)
   ![](https://components101.com/sites/default/files/component_pin/IRF520-Pinout.png)
-  * In this case I decided to use:  
+
+### Apllication of Mosfet: High power LED
+In this case I decided to use:  
     * High Intensity LED
     * 9 v battery for The high intensity LED
     * 4 AAA Batteries to Power the Attiny, Connected in parallel to create a total volt of 6v, Attiny works up to 5.5v
@@ -106,10 +110,10 @@ The final goal was to make the entire circuit independent so it works on portabl
 The following is a setup, using a similar setup as before.
 The great difference is I am using the previously done soft sensor and a pull up input.
 * the led will change from off to midway on, to full On.
-* The input pullup pin is pin 1
+* The input pullup pin is pin 1   
 
+```  
 
-```
 int sw_pin = 1;
 int conutner_reset = 3; //how many times we press before we reset
 
@@ -158,20 +162,21 @@ void loop() {
     }
 
   }
-  ```
+
+```   
   <iframe src="https://player.vimeo.com/video/501938018" width="640" height="1138" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
   <p><a href="https://vimeo.com/501938018">ta-w10-3</a> from <a href="https://vimeo.com/mrjsnap">mr.jsnap</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
- 4. Generate Sound
-  - Generate Sound with Arduino
+## Generate Sound   
+###Generate Sound with Arduino  
 In this case, we used:
-  IRF520 Mosfet
-  9v battery
-  3w Speaker
-  Arduino
+  - IRF520 Mosfet
+  - 9v battery
+  - 3w Speaker
+  - Arduino   
   Along with the tutorial reviewed in class.
 
-  ```
+```
   /*ema pareschi 2020
  * I generate a sound on a speaker, frequency of 100hx
  * */
@@ -197,8 +202,9 @@ void loop() {
   The final Result was as follows:
       <iframe src="https://player.vimeo.com/video/515395149" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-  - Play Music of Device on Speaker
+### Play Music of Device on Speaker   
 The same excersice was done as with the arduino, with the modification of using a 1.8mm White Swade leather. The conductive thread was sawn with machine on top, and the speaker used 3 20mm round Rare earth magnets, two under the speaker and one to hold the other two in place. as follows:
 ![](../images/ta-w10-4.2.jpg)
-<iframe src="https://player.vimeo.com/video/515423075" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/515423075" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>   
+
 What became interesting is by folding the swade on itself it actually becomes the tension in order to create sound.

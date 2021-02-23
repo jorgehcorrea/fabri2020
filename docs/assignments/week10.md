@@ -169,36 +169,31 @@ void loop() {
 
 ## Generate Sound   
 ###Generate Sound with Arduino  
-In this case, we used:
-  - IRF520 Mosfet
-  - 9v battery
-  - 3w Speaker
-  - Arduino   
-  Along with the tutorial reviewed in class.
+In this case, we used:  
+  - IRF520 Mosfet  
+  - 9v battery  
+  - 3w Speaker  
+  - Arduino     
+  Along with the tutorial reviewed in class.     
+
+The code:   
 
 ```
-  /*ema pareschi 2020
- * I generate a sound on a speaker, frequency of 100hx
- * */
 
 const int speaker = 3; //buzzer to arduino pin 8
-
-
 void setup() {
-
   pinMode(speaker, OUTPUT); // Set buzzer - pin 8 as an Output
-
 }
 
 void loop() {
-
   tone(speaker, 1000); //send 1khx dounf signal
   delay(1000);
   noTone(speaker);
   delay(1000);
-
 }
-  ```
+
+```  
+
   The final Result was as follows:
       <iframe src="https://player.vimeo.com/video/515395149" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 

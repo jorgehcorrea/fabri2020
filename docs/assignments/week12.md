@@ -4,7 +4,7 @@
 ## Research
 I found myself very inspired by the class, especially the Pnebotics. Their work is really exiting, and blew my mind when they actual y started picking up things with the pneumatic robots.  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Ku-TavNuwwc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ku-TavNuwwc" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ![](..//images/Otherlab show and tell .JPEG)  
 
@@ -38,14 +38,19 @@ The wax paper in my case was also sort of sticking, so I used double Wax Paper, 
 The first trial, I left the material too in the iron and I later was not able to pull out.
 ![](../images/ta-w12-1 (0.3).JPG)
 #### Proof of Process
-![](../images/ta-w12-1 (0.4).JPG)
-<iframe src="https://player.vimeo.com/video/520075402" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+![](../images/ta-w12-1 (0.4).JPG)  
+
+
+<iframe src="https://player.vimeo.com/video/520075402" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>  
+
+
 #### Fist Motion Pattern
 ![](../images/ta-w12-1 (0.5).JPG)        
 
 <a href="../files/MovingInflatingPattern.pdf" download> Download The pattern Here</a>  
 
-<iframe src="https://player.vimeo.com/video/520075910" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/520075910" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>   
+
 Use the three backticks to separate code.
 
 

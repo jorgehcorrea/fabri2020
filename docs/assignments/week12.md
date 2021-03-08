@@ -2,7 +2,7 @@
 
 
 ## Research
-I found myself very inspired by the class, especially the Pnebotics. Their work is really exiting, and blew my mind when they actual y started picking up things with the pneumatic robots.  
+I found myself very inspired by the Pnebotics. Their work is really exiting, and blew my mind when they actual y started picking up things with the pneumatic robots.  
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ku-TavNuwwc" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -26,13 +26,13 @@ In order to work with this process, we acquired Textile Vinyl, commonly understo
 
 - The Brand is Chemical US  
 
-- The material specifically is Polyurethane Metallic 461 Super zinc, we tried with other materials with less success.  There was also this cool perforated mateiral, but it became counterproductive.
+- The material specifically is Polyurethane Metallic 461 Super zinc, we tried with other materials with less success.  There was also this cool perforated material, but it became counterproductive.
 
 ![](../images/ta-w12-1 (0).JPG)
 
 Recommendations for use: 293 F, 15s . Be careful as the material is thin.  
 The wax paper in my case was also sort of sticking, so I used double Wax Paper, wax side out.
-#### Impacient Attempt
+#### Impatient Attempt
 ![](../images/ta-w12-1 (0.1).JPG)  
 ![](../images/ta-w12-1 (0.2).JPG)  
 The first trial, I left the material too in the iron and I later was not able to pull out.
@@ -42,6 +42,7 @@ The first trial, I left the material too in the iron and I later was not able to
 
 
 <iframe src="https://player.vimeo.com/video/520075402" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>  
+<iframe src="https://player.vimeo.com/video/520075402" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 
 #### Fist Motion Pattern
@@ -50,3 +51,5 @@ The first trial, I left the material too in the iron and I later was not able to
 <a href="../files/MovingInflatingPattern.pdf" download> Download The pattern Here</a>  
 
 <iframe src="https://player.vimeo.com/video/520075910" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>   
+
+<iframe src="https://player.vimeo.com/video/520075910" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

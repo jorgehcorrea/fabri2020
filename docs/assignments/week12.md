@@ -1,59 +1,55 @@
-# 12. Soft robotics
+# 12. Soft Robotics
 
-December 8th, 2020
-
-Lily Chambers & Adriana Cabrera
-
-This class will focus in the study of a specific field in robotics, the soft robotics. Unlike rigid robots we are mostly used to, soft bodied robots have similarities and performance characteristics similar to living organisms or the human body.
 
 ## Research
+I found myself very inspired by the class, especially the Pnebotics. Their work is really exiting, and blew my mind when they actual y started picking up things with the pneumatic robots.  
 
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ku-TavNuwwc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+![](..//images/Otherlab show and tell .JPEG)  
 
+- [Fun examples](https://www.otherlab.com/blog-posts/m3-robots)   
+
+I also remembered this architect, Its also a proof of concept that the technology can be applied in a consumer space.
+- [Oskar Zieta](https://www.architonic.com/en/story/nora-schmidt-blow-up-sheet-metal/7000205)  
+Long ago made a chair out of inflated metal. It seems the patterns was what gave it the shape, and not the air obstructions but it is non the less inspiring.
+![](https://image.architonic.com/imgTre/12_08/Zieta_HAY-%287%29.jpg)
 ## Useful links
 
-- [Jekyll](http://jekyll.org)
-- [Google](http://google.com)
-- [Markdown](https://en.wikipedia.org/wiki/Markdown)
+- [Soft Robotics](https://adrianacabrera.github.io/SoftRobotics/index.html)
 
 
-## Code Example
+## Inflatable Textile Vinyl
 
+### Materials
+In order to work with this process, we acquired Textile Vinyl, commonly understood as stamping vinyl for t-shirts.  
+
+- The Brand is Chemical US  
+
+- The material specifically is Polyurethane Metallic 461 Super zinc, we tried with other materials with less success.  There was also this cool perforated mateiral, but it became counterproductive.
+
+![](../images/ta-w12-1 (0).JPG)
+
+Recommendations for use: 293 F, 15s . Be careful as the material is thin.  
+The wax paper in my case was also sort of sticking, so I used double Wax Paper, wax side out.
+#### Impacient Attempt
+![](../images/ta-w12-1 (0.1).JPG)  
+![](../images/ta-w12-1 (0.2).JPG)  
+The first trial, I left the material too in the iron and I later was not able to pull out.
+![](../images/ta-w12-1 (0.3).JPG)
+#### Proof of Process
+![](../images/ta-w12-1 (0.4).JPG)
+<iframe src="https://player.vimeo.com/video/520075402" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+#### Fist Motion Pattern
+![](../images/ta-w12-1 (0.5).JPG)        
+
+<a href="../files/MovingInflatingPattern.pdf" download> Download The pattern Here</a>  
+
+<iframe src="https://player.vimeo.com/video/520075910" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 Use the three backticks to separate code.
 
-```
-// the setup function runs once when you press reset or power the board
-void setup() {
-  // initialize digital pin LED_BUILTIN as an output.
-  pinMode(LED_BUILTIN, OUTPUT);
-}
-
-// the loop function runs over and over again forever
-void loop() {
-  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(1000);                       // wait for a second
-  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
-  delay(1000);                       // wait for a second
-}
-```
 
 
-## Gallery
-
-![](../images/sample-photo.jpg)
-
-## Video
-
-### From Vimeo
-
-<iframe src="https://player.vimeo.com/video/10048961" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/10048961">Sound Waves</a> from <a href="https://vimeo.com/radarboy">George Gally (Radarboy)</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-
-### From Youtube
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jjNgJFemlC4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## 3D Models
 

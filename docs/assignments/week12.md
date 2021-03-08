@@ -41,7 +41,7 @@ The first trial, I left the material too in the iron and I later was not able to
 ![](../images/ta-w12-1 (0.4).JPG)  
 
 
-<iframe src="https://player.vimeo.com/video/520075402" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>  
+
 <iframe src="https://player.vimeo.com/video/520075402" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 
@@ -50,6 +50,6 @@ The first trial, I left the material too in the iron and I later was not able to
 
 <a href="../files/MovingInflatingPattern.pdf" download> Download The pattern Here</a>  
 
-<iframe src="https://player.vimeo.com/video/520075910" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>   
+
 
 <iframe src="https://player.vimeo.com/video/520075910" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

@@ -33,7 +33,7 @@ In order to work with this process, we acquired Textile Vinyl, commonly understo
 Recommendations for use: 293 F, 15s . Be careful as the material is thin.  
 The wax paper in my case was also sort of sticking, so I used double Wax Paper, wax side out.
 #### Impatient Attempt
-![](../images/ta-w12-1 (0.1).JPG)  
+
 ![](../images/ta-w12-1 (0.2).JPG)  
 The first trial, I left the material too in the iron and I later was not able to pull out.
 ![](../images/ta-w12-1 (0.3).JPG)

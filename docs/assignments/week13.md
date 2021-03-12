@@ -57,5 +57,6 @@ I was planning to use:
 - [attiny with capacitive sensor](https://dev.mikamai.com/2014/07/09/attiny85-based-capacitive-sensor-led-switch/)
 - [Forum Attiny & cr battery](https://forum.arduino.cc/index.php?topic=216543.0)
 - [Turn down all attiny](http://www.nongnu.org/avr-libc/user-manual/group__avr__power.html)  
+- [Attiny: Capacitive Sensing](https://www.kobakant.at/DIY/?p=4384) -  This is in How to get what you want, honestly I should have it listed in every page. 
 
   I might have to use only 1 led.

@@ -8,60 +8,47 @@ In the same way that the wearables industry is integrating fashion practices in 
 
 ## Research
 
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+ - [Article on Tattoos](https://edgy.app/electronic-tattoos)
+ - [Deeper into types of tatoos, by DuoSkin](https://duoskin.media.mit.edu/)
+ - [DuoSkin: Rapidly prototyping On-Skin User Interface Paper](https://duoskin.media.mit.edu/duoskin_iswc16.pdf)
+ - [Attiny Drawdio bracelet](https://www.kobakant.at/DIY/?p=6577)
 
-> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+##Concept 1 : RF tattoo
+Think of a tattoo that opens your front door, while you pull up in the Car. Cool eh?
+[image?]
+I thought maybe doing an RF transmitter with an attiny 85 might be a cool tattoo, seeing as I am about a month behind on the x-mas party, Ill have to also think about a mask somehow.
 
-## Useful links
-
-- [Jekyll](http://jekyll.org)
-- [Google](http://google.com)
-- [Markdown](https://en.wikipedia.org/wiki/Markdown)
-
-
-## Code Example
-
-Use the three backticks to separate code.
-
-```
-// the setup function runs once when you press reset or power the board
-void setup() {
-  // initialize digital pin LED_BUILTIN as an output.
-  pinMode(LED_BUILTIN, OUTPUT);
-}
-
-// the loop function runs over and over again forever
-void loop() {
-  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(1000);                       // wait for a second
-  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
-  delay(1000);                       // wait for a second
-}
-```
+In this case I have started to set up the receiver Arduino in order to make sure that I get anything, using the following tutorial.
+###Useful links
+- [Complete Guide for RF 433MHz Transmitter/Receiver Module With Arduino](https://randomnerdtutorials.com/rf-433mhz-transmitter-receiver-module-with-arduino/)
+- [ATtiny85-RF-Remote-Control](https://www.instructables.com/ATtiny85-RF-Remote-Control/)
+I start by selecting two Arduinos, and testing them with Blink code. I require the [Radiohead Arduino Library](https://github.com/PaulStoffregen/RadioHead) (for the receiver). I had to [manualy](https://www.arduino.cc/en/guide/libraries#toc4) install the library.
 
 
-## Gallery
+A full day after not getting anything to work I switched to a simpler approach. Ill just leave the documentation if somebody ever needs it.
 
-![](../images/sample-photo.jpg)
+##Concept 2: Meditation Tattoo
+Meditation is an old practice, that can be found in one form or another in multiple cultures. Recently has also seen a resurgence in our culture due to all the health benefits.  
 
-## Video
 
-### From Vimeo
+!()[../images/ta-w13-meditattoo (3).jpg]  
 
-<iframe src="https://player.vimeo.com/video/10048961" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/10048961">Sound Waves</a> from <a href="https://vimeo.com/radarboy">George Gally (Radarboy)</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+A foreheads tattoo, representing a third eye, that turns on and tells people around you, you are in a meditative state.. or close to it. Also it should look good in photos, and I've picked the habit too.
 
-### From Youtube
+!()[../images/ta-w13-meditattoo (2).jpg]  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jjNgJFemlC4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+###The Construction
+!()[../images/ta-w13-meditatoo.jpg]
+I was planning to use:
+ -  Attiny 85
+ -  LED, small
+ -  CR2032 battery
+ -  Thin wire
+ -  Transparent layer of Vinyl, by US Chemicals, also has glue inately.
+ -  
+### Useful links
 
-## 3D Models
-
-<div class="sketchfab-embed-wrapper"><iframe width="640" height="480" src="https://sketchfab.com/models/658c8f8a2f3042c3ad7bdedd83f1c915/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-<p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
-    <a href="https://sketchfab.com/models/658c8f8a2f3042c3ad7bdedd83f1c915?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Dita&#39;s Gown</a>
-    by <a href="https://sketchfab.com/francisbitontistudio?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Francis Bitonti Studio</a>
-    on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
-</p>
-</div>
+- [attiny with capacitive sensor](https://dev.mikamai.com/2014/07/09/attiny85-based-capacitive-sensor-led-switch/)
+- [Forum Attiny & cr battery](https://forum.arduino.cc/index.php?topic=216543.0)
+- [Turn down all attiny](http://www.nongnu.org/avr-libc/user-manual/group__avr__power.html)
+  I might have to use only 1 led.

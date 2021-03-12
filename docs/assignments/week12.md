@@ -1,6 +1,5 @@
 # 12. Soft Robotics
 
-
 ## Research
 I found myself very inspired by the Pnebotics. Their work is really exiting, and blew my mind when they actual y started picking up things with the pneumatic robots.  
 
@@ -53,3 +52,12 @@ The first trial, I left the material too in the iron and I later was not able to
 
 
 <iframe src="https://player.vimeo.com/video/520075910" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+##Concept In use: Add wings to a Nike Cortez
+
+I thought it be cool if a sneaker had wings, back in the Athens, Hermes, the god of speed and messenger to all other gods was portrayed with winds in his feet. Its a concept that has resonated ever since, the speed, the dream of flight and recently Foot Locker's logo.
+###Test 1
+!()[../images/ta-w12-cortez_inf (1).jpg]
+!()[../images/ta-w12-cortez_inf (2).jpg]
+!()[../images/ta-w12-cortez_inf (3).jpg]
+!()[../images/ta-w12-cortez_inf (4).jpg]

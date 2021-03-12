@@ -39,16 +39,23 @@ A foreheads tattoo, representing a third eye, that turns on and tells people aro
 
 ###The Construction
 ![](../images/ta-w13-meditatoo.JPG)
-I was planning to use:
- -  Attiny 85
- -  LED, small
- -  CR2032 battery
- -  Thin wire
- -  Transparent layer of Vinyl, by US Chemicals, also has glue inately.
+I was planning to use:  
+
+ -  Attiny 85  
+
+ -  LED, small  
+
+ -  CR2032 battery  
+
+ -  Thin wire  
+
+ -  Transparent layer of Vinyl, by US Chemicals, also has glue innately.  Its sort of like a sticky note.
+
  -  
 ### Useful links
 
 - [attiny with capacitive sensor](https://dev.mikamai.com/2014/07/09/attiny85-based-capacitive-sensor-led-switch/)
 - [Forum Attiny & cr battery](https://forum.arduino.cc/index.php?topic=216543.0)
-- [Turn down all attiny](http://www.nongnu.org/avr-libc/user-manual/group__avr__power.html)
+- [Turn down all attiny](http://www.nongnu.org/avr-libc/user-manual/group__avr__power.html)  
+
   I might have to use only 1 led.

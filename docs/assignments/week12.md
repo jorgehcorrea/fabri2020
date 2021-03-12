@@ -57,7 +57,7 @@ The first trial, I left the material too in the iron and I later was not able to
 
 I thought it be cool if a sneaker had wings, back in the Athens, Hermes, the god of speed and messenger to all other gods was portrayed with winds in his feet. Its a concept that has resonated ever since, the speed, the dream of flight and recently Foot Locker's logo.
 ###Test 1
-!()[../images/ta-w12-cortez_inf (1).jpg]
-!()[../images/ta-w12-cortez_inf (2).jpg]
-!()[../images/ta-w12-cortez_inf (3).jpg]
-!()[../images/ta-w12-cortez_inf (4).jpg]
+![](../images/ta-w12-cortez_inf (1).JPG)  
+![](../images/ta-w12-cortez_inf (2).JPG)  
+![](../images/ta-w12-cortez_inf (3).JPG)  
+![](../images/ta-w12-cortez_inf (4).JPG)  

@@ -31,14 +31,14 @@ A full day after not getting anything to work I switched to a simpler approach. 
 Meditation is an old practice, that can be found in one form or another in multiple cultures. Recently has also seen a resurgence in our culture due to all the health benefits.  
 
 
-!()[../images/ta-w13-meditattoo (3).jpg]  
+![](../images/ta-w13-meditattoo 3.JPG)
 
 A foreheads tattoo, representing a third eye, that turns on and tells people around you, you are in a meditative state.. or close to it. Also it should look good in photos, and I've picked the habit too.
 
-!()[../images/ta-w13-meditattoo (2).jpg]  
+![](../images/ta-w13-meditattoo 2.JPG)
 
 ###The Construction
-!()[../images/ta-w13-meditatoo.jpg]
+![](../images/ta-w13-meditatoo.JPG)
 I was planning to use:
  -  Attiny 85
  -  LED, small

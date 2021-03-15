@@ -61,3 +61,7 @@ I thought it be cool if a sneaker had wings, back in the Athens, Hermes, the god
 ![](../images/ta-w12-cortez_inf (2).JPG)  
 ![](../images/ta-w12-cortez_inf (3).JPG)  
 ![](../images/ta-w12-cortez_inf (4).JPG)  
+The final test I manage to do was as follows:  
+<iframe src="https://player.vimeo.com/video/522979550" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+As a reflection on my process, I ironed the pattern successfully in a curved fashion to maintain the curved shape when not inflated. When I inflate it, the middle patterns weren't as solidly bonded and the previous experiments. This would work but it might require custom shaped irons. The footwear is known for its custom machinery, but leaves places to improve in this specific case. 

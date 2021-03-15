@@ -105,7 +105,7 @@ The velostat was used in the same format.
 ![](../images/2020-10-31-fabriacademy_week5_schemaitcs-04.png)
 
 The following is the code used, taken from LizaStark in her tutorial.
-
+   ```
 		int sensorPin = A0;    // select the input pin for the sensor
 		int ledPin = 9;     // select the pin for the LED
 		int sensorValue = 0;  // variable to store the value coming from the sensor
@@ -129,6 +129,8 @@ The following is the code used, taken from LizaStark in her tutorial.
 		Serial.println(sensorValue);  
 
 		}
+	   ```
+		 
 The following was the result:
 ![](../images/LizaStark_ReadingSensorsValues.JPG)
 

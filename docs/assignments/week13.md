@@ -56,7 +56,7 @@ I was planning to use:
 ![](../images/ta-w13-2 2.JPG)  
 ![](../images/ta-w13-2 3.JPG)  
 
-
+### Code
    ```   
    //                        attiny85
    //                   reset -+---+- power
@@ -137,10 +137,12 @@ I was planning to use:
    }
 
    ```
-
+###working Tattoo
    <iframe src="https://player.vimeo.com/video/523993531" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-  
+### Next Attept
+![](../images/ta-w13-3 0.JPG)   
+
 ### Useful links
 
 - [attiny with capacitive sensor](https://dev.mikamai.com/2014/07/09/attiny85-based-capacitive-sensor-led-switch/)

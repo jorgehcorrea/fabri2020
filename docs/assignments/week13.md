@@ -129,6 +129,8 @@ I was planning to use:
 
 <iframe src="https://player.vimeo.com/video/524327401" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>  
 
+![](../images/2021-03-16-Meditation Tattoo.PNG)
+
 ### Useful links
 
 - [attiny with capacitive sensor](https://dev.mikamai.com/2014/07/09/attiny85-based-capacitive-sensor-led-switch/)
@@ -139,5 +141,3 @@ I was planning to use:
  - [](http://highlowtech.org/?p=1229)
  - [](https://create.arduino.cc/projecthub/arjun/programming-attiny85-with-arduino-uno-afb829)
  - [LED SMD sides](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbC7EPwi9KnXoyFC1aetX9nqJ9c2lCuVxAjA&usqp=CAU)
-
- 

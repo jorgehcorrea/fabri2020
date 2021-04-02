@@ -7,7 +7,7 @@ Katia Vega
 In the same way that the wearables industry is integrating fashion practices in their development, we envision new partnerships between the biotech/tech companies and skin professionals such as makeup artists…
 
 
-<iframe src="https://player.vimeo.com/video/524354203" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/524354203" width="564" height="640" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ##Concept : Meditation Tattoo
 Meditation is an old practice, that can be found in one form or another in multiple cultures. Recently has also seen a resurgence in our culture due to all the health benefits.  

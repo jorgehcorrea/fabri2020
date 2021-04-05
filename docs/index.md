@@ -20,7 +20,7 @@ I created a [chair that makes you coffee](https://fabacademy.org/2019/labs/zoi/s
 
 ### This is me
 
-![](images/jorge-correa.jpg)
+![](images/jorge-correa.jpg){: style="height:150px;width:150px"}
 
 I am located in the Andes, beautiful mountains surround me and I´m fond of getting out of the city on the spare time.
 

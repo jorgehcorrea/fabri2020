@@ -42,7 +42,7 @@ The first trial, I left the material too in the iron and I later was not able to
 I place a cutting board to iron over, to protect my surface. Avoid direct heat (it will wrinkle it)    
 Use a thick cotton based cloth. This will apply pressure to the vynil from the other side. It became important to put some weight to the ironing, it helps with joining the center wax cutouts of the vynil.  
 
-####1.)Define the temperature for the iron.  
+####1.)Define the temperature
 Us Chemiclas recommends 150 degrees (material provider) and its a great start.   
 Doing trail and error with small swatches of the material until its aparent of proper union between the vynil sides.    
 ![](../images/w12-iron3.png)  
@@ -52,17 +52,15 @@ In my case, I found the proper temperature was not 150, but 175 degrees. I think
 More trial and error. Make a setup where you have a timer next and use it every time you decide to join a patter.  
 ![](../images/w12-iron2.jpg)  
 The provider's datasheet recommends 10s. I found out with the 175 temperature, 15s was a reliable time, so I had the timer set up to it.
-####3.) The iron action  
+####3.) The ironing action  
 Wrap the patter with wax paper.  
 ![](../images/w12-iron5.jpg)  
 Make sure the iron is hot, start the timer.  
 ![](../images/w12-iron6.jpg)   
 Apply as much pressure as you can, and respect the timer.   
 
-#### Proof of Process
+#### Results
 ![](../images/ta-w12-1 (0.4).JPG)  
-
-
 
 <iframe src="https://player.vimeo.com/video/520075402" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
@@ -79,7 +77,19 @@ Apply as much pressure as you can, and respect the timer.
 ##Concept In use: Add wings to a Nike Cortez
 
 I thought it be cool if a sneaker had wings, back in the Athens, Hermes, the god of speed and messenger to all other gods was portrayed with winds in his feet. Its a concept that has resonated ever since, the speed, the dream of flight and recently Foot Locker's logo.
-###Test 1
+###Setup  
+In order to make the test a bit more procedural, I used aquarium water pump. I had one laying around that I decided to use, but you can also get them for cheep. They use 110v standard outlet.  
+####Airpump
+Specifications:
+![](../images/aquariumPump1.jpg)  
+The reality is that the pump is not strong, it is estimated that this type of pump create just over 1 atm of pressure. You could find it in [Amazon](https://www.amazon.com/Marina-11135-Cool-Air-Pump/dp/B003TLUZ16/ref=sr_1_21?crid=L8CXKFOWN2GP&dchild=1&keywords=marina+air+pump+for+aquariums&qid=1617654852&sprefix=marina+air+pu%2Caps%2C210&sr=8-21)
+All the plastic connections I found in a pet store, as accessories for aquarium worked for connections in my setup.   
+![](../images/aquariumPump2.jpg)
+####Setup pump in the shoe  
+In this case I was looking for proof that the pumping could actually move a pattern over the shoe, as a concept.
+![](../images/aquariumPump3.jpg)
+
+###Test
 ![](../images/ta-w12-cortez_inf (1).JPG)  
 ![](../images/ta-w12-cortez_inf (2).JPG)  
 ![](../images/ta-w12-cortez_inf (3).JPG)  

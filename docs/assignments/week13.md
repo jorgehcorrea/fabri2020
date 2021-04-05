@@ -13,13 +13,14 @@ In the same way that the wearables industry is integrating fashion practices in 
 Meditation is an old practice, that can be found in one form or another in multiple cultures. Recently has also seen a resurgence in our culture due to all the health benefits.  
 
 
-![](../images/ta-w13-meditattoo 3.JPG)
+![](../images/meditatoo.JPG)
+![](../images/medit.jpg)
 
 A foreheads tattoo, representing a third eye, that turns on and tells people around you, you are in a meditative state.. or close to it. Also it should look good in photos, and I've picked the habit too.
 
-![](../images/ta-w13-meditattoo 2.JPG)
 
-###The Construction
+
+###The Construction process
 ![](../images/ta-w13-meditatoo.JPG)
 I was planning to use:  
 
@@ -126,6 +127,12 @@ I was planning to use:
 ![](../images/ta-w13-3 0.JPG)   
 ![](../images/ta-w13-3.1.JPG)
 ![](../images/ta-w13-3.2.JPG)  
+It works as follows:
+### Final Traces
+![](../images/2021-03-16-Meditation Tattoo.png)  
+Interestingly the first tests where cut by hand and patience, due to the covid pandemic.  
+
+The outer trace works as a capacitive sensor, when detects touch the high intensity led will turn on, and off accordingly. Two smd leds turn on when the sensor is activated and turn off.
 
 <iframe src="https://player.vimeo.com/video/524327401" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>  
 
@@ -138,6 +145,6 @@ I was planning to use:
 - [Turn down all attiny](http://www.nongnu.org/avr-libc/user-manual/group__avr__power.html)  
 - [Attiny: Capacitive Sensing](https://www.kobakant.at/DIY/?p=4384) -  This is in How to get what you want, honestly I should have it listed in every page.
 
- - [](http://highlowtech.org/?p=1229)
- - [](https://create.arduino.cc/projecthub/arjun/programming-attiny85-with-arduino-uno-afb829)
+ - [highlowtech](http://highlowtech.org/?p=1229)
+ - [create programming with attiny85](https://create.arduino.cc/projecthub/arjun/programming-attiny85-with-arduino-uno-afb829)
  - [LED SMD sides](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbC7EPwi9KnXoyFC1aetX9nqJ9c2lCuVxAjA&usqp=CAU)

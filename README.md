@@ -1,18 +1,18 @@
-# Fabricademy student documentation Jorge Correa
+# Fabricademy  Jorge Correa'S Documentation
 
 The following is an exploration on the implementation of new concepts, processes and materials in order to integrate in new fabric technologies following the fabriacademy collective study.   
 
-##Project layout  
+##Project layout  - 
 mkdocs.yml    # The site configuration file.
 docs/         # All site content/files should be in this folder.
     index.md  # The homepage.
     files/    # Files you'd available in your site here (videos are at Vimeo)
     images/   # images in here
     assignments/
-      week05.md   #
-      week10.md   #
-      week12.md   #
-      week13.md   #
+      week05.md   # Textile Head Lamp - explring a buff / lamp concpet
+      week10.md   # Leather speaker - exploring new uses for leather
+      week12.md   # Inflating Nike Swhoosh - if swoosh could inflate itself in the shoe
+      week13.md   # Meetatoo - an attachable sticker that would notify when someone is busy
     ...       # Other markdown pages and folders
 
 Visit [class.textile-academy.org](https://class.textile-academy.org/) for class and other information
